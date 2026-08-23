@@ -1,0 +1,36 @@
+{
+  "average_faithfulness": 1.0,
+  "average_relevancy": 0.75,
+  "per_question": [
+    {
+      "question": "What is the shifted window mechanism in the Swin Transformer?",
+      "answer": "Based on the provided context, the shifted window mechanism is a design element in the Swin Transformer where:\n\n* **Window Displacement:** It adopts a windowing configuration that is shifted from the preceding layer by displacing the windows by $(\\lfloor \\frac{M}{2} \\rfloor, \\lfloor \\frac{M}{2} \\rfloor)$ pixels from the regularly partitioned windows.\n* **Consecutive Layer Connection:** It shifts the window partition between consecutive self-attention layers, bridging the windows of the preceding layer and providing connections between them to significantly enhance modeling power.\n* **Block Computation:** It replaces the standard multi-head self-attention (MSA) module, alternating between regular window-based multi-head self-attention (W-MSA) and shifted window-based multi-head self-attention (SW-MSA) across consecutive blocks.",
+      "faithfulness": 1.0,
+      "relevancy": 1.0
+    },
+    {
+      "question": "How does DINOv2 learn visual features?",
+      "answer": "Based on the context, DINOv2 learns visual features through **self-supervised pretraining** (alone) using different Vision Transformer (ViT) architectures on the authors' data. \n\nThe learning and performance of the DINOv2 family of models are attributed to:\n1. An improved training recipe with better hyperparameters and regularization.\n2. A larger model scale.\n3. A larger dataset.\n4. A distillation process that enables smaller models to benefit from the performance of the strongest ViT-g model.",
+      "faithfulness": 1.0,
+      "relevancy": 1.0
+    },
+    {
+      "question": "What is the core idea of a Generative Adversarial Network?",
+      "answer": "Based on the provided context, the core idea of a Generative Adversarial Network is a framework for estimating generative models via an adversarial process by simultaneously training two models:\n\n1. **A generative model ($G$)** that captures the data distribution.\n2. **A discriminative model ($D$)** that estimates the probability that a sample came from the training data rather than from $G$.\n\nThe training procedure for $G$ is to maximize the probability of $D$ making a mistake, which corresponds to a minimax two-player game.",
+      "faithfulness": 1.0,
+      "relevancy": 1.0
+    },
+    {
+      "question": "What problem does the self-attention mechanism solve in transformers?",
+      "answer": "I don't have enough information.",
+      "faithfulness": 1.0,
+      "relevancy": 0.0
+    },
+    {
+      "question": "What is CLIP and how is it trained?",
+      "answer": "Based on the provided context, there is not enough information to fully define what CLIP stands for or provide complete details on its full training architecture. However, the context provides the following details:\n\n* **What it is:** It is a model capable of zero-shot performance that can be competitive with or match strong, fully supervised baselines (such as matching Inception-V4 with 95% top-5 accuracy), though it struggles with fine-grained classification, abstract/systematic tasks (like counting), and novel tasks.\n* **How it is trained / dataset supervision:** \n  * It uses search queries as part of its dataset creation process, specifically restricting this step to text-only querying for sub-string matches.\n  * Rather than using only short query words/n-grams, it uses full text sequences co-occurring with images as supervision.",
+      "faithfulness": 1.0,
+      "relevancy": null
+    }
+  ]
+}
