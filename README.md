@@ -4,6 +4,8 @@ An agentic Retrieval-Augmented Generation (RAG) assistant that answers natural-l
 
 Built with LangChain, LangGraph, FAISS, and Google Gemini.
 
+**Live demo:** https://aarush-research-agent.vercel.app
+
 ---
 
 ## Key Features
@@ -81,7 +83,7 @@ agentic-rag-assistant/
 
 ## Web version
 
-`web/` is a hosted version of the same agent, deployed on Vercel:
+`web/` is a hosted version of the same agent, live at https://aarush-research-agent.vercel.app:
 
 - **Retrieval in the browser.** The papers are chunked exactly as `src/ingest.py` does (1,000 characters, 200 overlap) and embedded once with all-MiniLM-L6-v2. The page loads the same 8-bit model with transformers.js, embeds each query the agent writes, and ranks the chunks by cosine similarity.
 - **The agent on a Vercel function.** `web/api/agent.js` runs the Gemini ReAct loop with the same two tools and system prompt. It hands `search_papers` calls to the browser and runs `search_web` itself, with Tavily if `TAVILY_API_KEY` is set and Google Search grounding through Gemini otherwise, so a Gemini key is the only one required.
