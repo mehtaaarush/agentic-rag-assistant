@@ -5,3 +5,8 @@ __pycache__/
 data/
 faiss_index/
 .DS_Store
+# Web demo: full paper text is rebuilt with web/scripts/build_corpus.py, not redistributed
+web/lib/corpus.json
+web/node_modules/
+.hallmark/
+!web/public/data/

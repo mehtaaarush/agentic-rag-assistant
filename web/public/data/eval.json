@@ -1,0 +1,31 @@
+{
+ "average_faithfulness": 1.0,
+ "average_relevancy": 0.75,
+ "per_question": [
+  {
+   "question": "What is the shifted window mechanism in the Swin Transformer?",
+   "faithfulness": 1.0,
+   "relevancy": 1.0
+  },
+  {
+   "question": "How does DINOv2 learn visual features?",
+   "faithfulness": 1.0,
+   "relevancy": 1.0
+  },
+  {
+   "question": "What is the core idea of a Generative Adversarial Network?",
+   "faithfulness": 1.0,
+   "relevancy": 1.0
+  },
+  {
+   "question": "What problem does the self-attention mechanism solve in transformers?",
+   "faithfulness": 1.0,
+   "relevancy": 0.0
+  },
+  {
+   "question": "What is CLIP and how is it trained?",
+   "faithfulness": 1.0,
+   "relevancy": null
+  }
+ ]
+}

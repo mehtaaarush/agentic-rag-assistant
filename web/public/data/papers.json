@@ -1,0 +1,98 @@
+[
+ {
+  "file": "attention_is_all_you_need.pdf",
+  "arxiv": "1706.03762",
+  "title": "Attention Is All You Need",
+  "year": 2017,
+  "pages": 15,
+  "chunks": 52
+ },
+ {
+  "file": "vision_transformer_vit.pdf",
+  "arxiv": "2010.11929",
+  "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+  "year": 2020,
+  "pages": 22,
+  "chunks": 88
+ },
+ {
+  "file": "swin_transformer.pdf",
+  "arxiv": "2103.14030",
+  "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+  "year": 2021,
+  "pages": 14,
+  "chunks": 89
+ },
+ {
+  "file": "swinir.pdf",
+  "arxiv": "2108.10257",
+  "title": "SwinIR: Image Restoration Using Swin Transformer",
+  "year": 2021,
+  "pages": 12,
+  "chunks": 74
+ },
+ {
+  "file": "dinov2.pdf",
+  "arxiv": "2304.07193",
+  "title": "DINOv2: Learning Robust Visual Features without Supervision",
+  "year": 2023,
+  "pages": 32,
+  "chunks": 141
+ },
+ {
+  "file": "dino_self_supervised_vit.pdf",
+  "arxiv": "2104.14294",
+  "title": "Emerging Properties in Self-Supervised Vision Transformers",
+  "year": 2021,
+  "pages": 21,
+  "chunks": 126
+ },
+ {
+  "file": "masked_autoencoders_mae.pdf",
+  "arxiv": "2111.06377",
+  "title": "Masked Autoencoders Are Scalable Vision Learners",
+  "year": 2021,
+  "pages": 14,
+  "chunks": 79
+ },
+ {
+  "file": "generative_adversarial_networks.pdf",
+  "arxiv": "1406.2661",
+  "title": "Generative Adversarial Networks",
+  "year": 2014,
+  "pages": 9,
+  "chunks": 39
+ },
+ {
+  "file": "clip.pdf",
+  "arxiv": "2103.00020",
+  "title": "Learning Transferable Visual Models From Natural Language Supervision",
+  "year": 2021,
+  "pages": 48,
+  "chunks": 296
+ },
+ {
+  "file": "resnet.pdf",
+  "arxiv": "1512.03385",
+  "title": "Deep Residual Learning for Image Recognition",
+  "year": 2015,
+  "pages": 12,
+  "chunks": 78
+ },
+ {
+  "file": "loftr.pdf",
+  "arxiv": "2104.00680",
+  "title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+  "year": 2021,
+  "pages": 10,
+  "chunks": 129
+ },
+ {
+  "file": "ddpm_diffusion.pdf",
+  "arxiv": "2006.11239",
+  "title": "Denoising Diffusion Probabilistic Models",
+  "year": 2020,
+  "pages": 25,
+  "chunks": 81
+ }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "agentic-rag-web",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@google/genai": "^2.27.0"
+  }
+}
